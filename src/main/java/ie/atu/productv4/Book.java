@@ -6,7 +6,6 @@ public class Book extends Product {
 
     public Book() {
         super();
-        author = "";
         count++;
     }
 

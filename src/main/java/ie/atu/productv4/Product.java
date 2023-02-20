@@ -2,7 +2,7 @@ package ie.atu.productv4;
 
 import java.text.NumberFormat;
 
-public class Product {
+public class Product implements Productable{
 
     private String code;
     private String description;
@@ -45,6 +45,7 @@ public class Product {
     public String toString() {
         return description;
     }
+
 
     public static int getCount() {
         return count;
